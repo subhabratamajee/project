@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0 ;
+	box-sizing: border-box;
+	font-family: century Gothic;
+	word-wrap: break-word;
+	text-decoration: none;
+    
+}
+html{
+	justify-content: center;
+	/* font-size: 80%; */
+	overflow-x: hidden;
+	scroll-padding-top: 6rem;
+	scroll-behavior: smooth;
+  }
+  /* body{
+z-index: 1;
+	min-height: fit-content;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: overlay;
+  } */
+	  .header{
+		align-items: center;
+	position: relative;
+		width: 100%;
+		height: 75px;
+		background-color: #c0eb34;
+	}
+	.Quote{
+		font-size: 20px;
+		font-family: verdana;
+	}
+.content{
+	/* position: absolute; */
+	background-image: url("rkmgec.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:100vh;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: overlay;
+	justify-content: center;
+	z-index: -100;
+}
+
+
+.subha-container{
+	/* position: absolute; */
+	padding: 0 10px;
+
+	overflow: scroll;
+	scroll-behavior: smooth;
+	 display: flex;
+	 flex-wrap:nowrap;
+	 gap:2rem;
+	 justify-content:space-around;
+	 
+	
+	 
+   }
+   .debda{
+	/* display: block; */
+	 flex:10rem;
+	 border-radius: .5rem;
+	 overflow: hidden;
+	 margin-bottom: 2rem;
+	 font-size: 1.3rem;
+	 justify-content: center;
+   }
+ .subha{
+	/* display: block; */
+	object-fit: cover;
+	 flex:20rem;
+	 border-radius: .5rem;
+	 overflow: hidden;
+	 box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+	 margin-bottom: 1rem;
+	 width: 18rem;
+	 font-size: 1.3rem;
+	 /* height:15rem */
+   }
+
+   .debsahu{
+	border-radius: .5rem;
+	overflow: hidden;
+	height: 2rem;
+	max-width: 20rem;
+	min-width: 15rem; 
+	margin: 1rem 0;
+	font-size: 1.2rem;
+   }
+   .Deb h3{
+	text-decoration: underline overline wavy blue; 
+	
+   }
+.Deb {
+	color:  orange;
+	text-align: center;
+	text-decoration: none;
+	height: 3rem;
+
+}
+.subha img{
+	border-radius: .5rem;
+   width: 100%; 
+	height: 18rem;
+	height: 15rem;
+}
+
+h4{
+	visibility: hidden;
+}
+
+a:link,a:visited {
+width: 100%;
+  color: white;
+  padding: 2px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center;
+  object-fit: cover;
+}
+a:hover, a:active{
+text-decoration: none;
+  background-color:orange;
+}
+.subha:hover h4{
+	visibility: visible;
+}
+
+:hover a{
+	text-decoration: none;
+}
+
+.teal {
+	bottom: 0;
+	position: relative;
+    background-color: #009688 !important;
+}
+
+.footer-copyright {
+    background-color: #205050;
+    color:#fff;
+    text-align: center;
+}
+.text-uppercase{
+    color:#fff;
+    position:relative;
+    margin-bottom: 15px;
+}
+
+.text-uppercase::after{
+    content:'';
+    height:1px;
+    width:50px;
+    background:#fff;
+    position:absolute;
+    left:0;
+    bottom:-5px;
+}
+
+.col-md-3 p {
+    color: #fff;
+}
+
+.text-center{
+    color:#fff;
+}
+
+.text-uppercase {
+    letter-spacing: 2px;
+}
+
+.fas {
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 15px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    color: #fff;
+}
+
+.text-decoration-line {text-decoration-line: underline;
+    padding: 5px;
+}
+
+.fa-phone-volume:before {
+    content: "\f2a0";
+    line-height: 3px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    background-color: #087268;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-uppercase::after {
+        content: '';
+        height: 2px;
+        width: 20%;
+        left: 132px;
+        bottom: -10px;
+    }
+
+  }
+@media only screen and ( max-width:450px ){
+	html{
+		font-size: 90%;
+	}
+	.subha{
+		width:20rem;
+	}
+	.debda{
+		width: 20rem;
+	}
+	.subha-container{
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,199 @@
+/* backgruond image style starts here */
+body{
+    height: align-self : start;
+    margin: 0px;
+    padding: 0px;
+    background: url(RKMGEC.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 630px;
+    animation: bgslider 20s infinite linear;
+}
+@keyframes bgslider{
+    0%{
+        background-image: url(RKMGEC.jpeg);
+    }
+    30%{
+        background-image: url(RKMGEC.jpeg);
+    }
+    33%{
+        background-image: url(coll2.jpg);
+    }
+    65%{
+        background-image: url(coll2.jpg);
+    }
+    68%{
+        background-image: url(coll3.jpeg);
+    }
+    97%{
+        background-image: url(coll3.jpeg);
+    }
+    
+}
+    /* background image end here */
+/* main college name starts here*/     
+#cgnm1{color: white;
+    background-color: rgb(8, 8, 116);
+    margin-top: 0px;
+    position: absolute; 
+    padding-left: 180px;
+    padding-bottom: 3px;
+    padding-top: 7px;
+    padding-right: 57px;
+}
+#cgnm2{color: white;
+    background-color: rgb(8, 8, 116);
+    margin: -25px;
+    position: absolute; 
+    padding-left: 165px;
+    margin-top: 33px;
+    padding-bottom: 0px;
+    padding-right: 23px;
+}
+#cgnm3{color: white;
+    background-color: rgb(8, 8, 116);
+    margin-top: 19px;
+    position: absolute; 
+    padding-left: 255px;
+    padding-bottom: 6px;
+    margin-top: 57px;
+    padding-right: 145px;
+}
+/* main college name ends here*/
+/* yellowbar and searchbar starts here*/
+.logotringle {
+margin-top: 0px;
+margin-left: 519px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 45px 0 45px 40px;
+border-color: transparent transparent transparent rgb(8, 8, 116);
+position: absolute;
+z-index: 50;}
+.yellowbar{
+    position: relative;
+    padding-bottom: 13px;
+    padding-top: 47px;
+    background-color: #f5e6a5;
+    background: linear-gradient(#f5e6a5, #dbac2b);
+    margin-top: 0px;
+    z-index: -1;
+    
+}
+/*yellowbar and searcbar ends here*/
+.nameing2 strong{
+margin-top: 8px;
+    color: rgb(245, 240, 240);
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 93px; 
+    display: inline-block;
+}
+.navbar{ 
+/* border: 1px solid black; */
+/* padding-top: -5px; */
+height: 30px;
+margin-left: 500px;
+    /* padding-bottom: -5px; */
+margin-top: -69px;
+padding-right: 0px;
+background: linear-gradient(#f5e6a5, #dbac2b);
+/* border-radius: 40px; */
+}
+.navbar ul{
+padding-top: 5px;
+overflow: auto;
+}
+.navbar li{
+float: left;
+list-style: none;
+}
+.navbar li a{
+padding-left: 28px;
+}
+.ashokstamv{
+position: absolute; 
+margin-top: -70px;
+height: 80px;
+padding-left: 30px;
+z-index: 60;
+}
+/* notification bar starts here */
+.notifibar{
+overflow: hidden;
+margin-top: 520px;
+height: 25px;
+position: relative;
+background-color: #f5e6a5 ;
+background: linear-gradient(#f5e6a5, #d8b040);
+/* z-index: 1; */
+}
+.notifibox li{
+list-style: none;
+padding-top: 4px;
+padding-bottom: 3px;
+text-overflow: clip;
+}
+.notifibox li a{
+white-space: nowrap;
+overflow: hidden;
+
+text-align: initial;
+text-overflow: clip;
+}
+.notifibox li{
+position: relative;
+animation-name: notification;
+animation-duration: 12s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+}
+@keyframes notification{
+from{
+margin-right: -5%;
+}
+to{
+margin-left: 100%;
+}
+}
+/* notification bar ends here */
+.services{
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+ /* background: url(ece4e.jpg); */
+ height:align-self: start;
+ justify-items: center;
+ align-items :center;
+
+}
+.servicebox{
+ margin-top: 35px;
+ margin-bottom: 30px;  
+padding-left: 10px;
+padding-right: 7px;
+width: 297px;
+height:210px;
+font-family: monospace;
+box-shadow:7px 7px 15px 4px rgb(95, 94, 94);
+
+/* border: 2px solid black; */
+/* border-radius: 6px; */
+text-align: center;
+/* background: linear-gradient(135deg,#f403d1,#64b5f6); */
+}
+.sicons{
+margin-top: 2px;
+height: 70px;
+
+
+}
+.endpart{
+margin-top: -16px;
+height: 10rem;
+background-color:#302d2d;
+text-align: center;
+}
+#endtext{
+color: rgb(126, 124, 122);
+}

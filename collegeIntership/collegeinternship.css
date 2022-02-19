@@ -1,0 +1,32 @@
+#topheader{
+    background-color:whitesmoke;
+    border-bottom:1px solid silver;
+    padding: 10px;
+}
+#topheader a{
+    color: rgb(59, 59, 170);
+    font-weight: 500;
+    font-size: 0.89rem;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+nav ul li a{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.top-hero-section{
+    background-color:rgb(130, 179, 196);
+    color: white;
+}
+.full-footer{
+    background-color:white
+}
+.top-footer p{
+    color: black;
+}
+.top-footer a{
+    color:black;
+    font-weight: 600;
+}
